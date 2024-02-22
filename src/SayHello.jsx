@@ -1,8 +1,9 @@
 export function SayHello() {
     return (
-        <div>
-            <h3>Bonjour !</h3>
-            <p>Coucou youtube</p>
+        <div style={{ border: "1px solid violet"}}>
+            <h3>Kylian</h3>
+            <p>Content</p>
+            <p>Like</p>
         </div>
     );
 }
