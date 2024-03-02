@@ -1,23 +1,5 @@
-* {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+@import "tailwindcss/base";
 
-.tweet {
-  background-color: #df74f4;
-  border: 2px solid #be2edd;
-  padding: 8px;
-  width: fit-content;
-  min-width: 300px;
-}
+@import "tailwindcss/components";
 
-.tweet h3,
-p {
-  margin: 0;
-  margin-bottom: 8px;
-}
-
-.tweet-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
+@import "tailwindcss/utilities";
